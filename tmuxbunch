@@ -23,18 +23,18 @@ reset='\033[0m'
 #if [ ! -d "$DIRECTORY" ]; then
 #apt update && apt upgrade
 #fi
-#figlet -f mini ..........TMUX-BUNCH..........
-echo -e "$red               ┈┈┈╱▔▔▔▔▔▔▔▔╲┈┈┈  
+#figlet -f mini ..........APK-TOOL..........
+echo -e "$cyan               ┈┈┈╱▔▔▔▔▔▔▔▔╲┈┈┈  
                ┈┈┈▏┈┈┈┈┈┈┈┈▕┈┈┈
-               ┈┈┈  ╭━╮┈┈╭━╮▕┈┈┈
-                ╱▔╲╲╰━╯╱╲╰━╯╱╱▔╲
+               ┈┈┈  ╭━╮┈┈╭━╮▕┈┈┈" 
+echo -e "$blue            ╱▔╲╲╰━╯╱╲╰━╯╱╱▔╲
                 ╲▂╲╲▏╮┈▔▔┈╭▕ ╲╲▂╱
                  ╱▔╲╲┣╋╋╋╋┫  ╲╲╲
                ╲▂╱┈╲▂▂▂▂▂▂╱┈╲▂╱"
 
 echo
 echo -e "$green              +_+_+_+_+_+_+_+_+_+_+"
-echo -e "$blue                 Tmux-Bunch $VERSION"
+echo -e "$blue                 APK-TOOL $VERSION"
 echo -e "$green               +_+_+_+_+_+_+_+_+_+_+"
 echo
 echo
@@ -44,7 +44,7 @@ read garbage
 echo
 #echo " $VERSION"
 echo
-echo -e "$red   -----Hax4Us---Lokesh---Don't--CopY----"
+echo -e "$green   ======[ INDOnimous--- Don't---Copy ]======" 
 echo
 #echo -e "$red WARNING :- Don't Try To Reupload , Modify , Or Resell Otherwise I Will Report You"
 #echo
@@ -52,7 +52,7 @@ echo
 #echo
 echo "   ------------LICENSE--INCLUDED----------"
 echo
-echo -e "$yellow       ~~~~~~~~~TMUX---BUNCH~~~~~~~~~"
+echo -e "$yellow       ~~~~~~~~~APK-TOOL~~~~~~~~~"
 echo
 echo -e "$blue                APK MODDING          "
 echo "----------------------------------------"
@@ -70,17 +70,17 @@ echo
 echo -e "$purple ------------------------------------------"
 echo
 echo -e "$yellow 1)Install frameworks-important for recompiling!!"
-echo " 2)Decompile apk"
-echo " 3)Recompile"
-echo " 4)Sign apk-important for installing"
-echo " 5)Zipalign"
-echo " 6)Bind payload with any apk"
-echo " 7)Persistence Backdoor Script"
-echo " 8)About"
-echo " 9)Credits"
-echo " 10)Exit"
+echo -e "$red 2)Decompile apk"
+echo -e "$yellow 3)Recompile"
+echo -e "$red 4)Sign apk-important for installing"
+echo -e "$yellow 5)Zipalign"
+echo -e "$red 6)Bind payload with any apk"
+echo -e "$yellow 7)Persistence Backdoor Script"
+echo -e "$red 8)About"
+echo -e "$yellow 9)Credits"
+echo -e "$red 10)Exit"
 echo
-echo -e "$blue ______________________"
+echo -e "$blue =========[ INDOnimous Team ]=========="
 echo
 echo -e "$purple pick your option$reset"
 read k
@@ -110,7 +110,7 @@ echo
 echo
 echo "_______________________"
 echo
-echo -e "$blue ENTER to return to TMUX-BUNCH menu$reset"
+echo -e "$blue ENTER to return to APK-TOOL menu$reset"
 read l
 fi
 cd $dir
@@ -335,10 +335,10 @@ echo
 echo
 echo -e "$red----Creator Of This Script Or Tool ::--->> Lokesh (Hax4Us)---"
 echo
-#figlet -f mini ..........TMUX--BUNCH..........
+#figlet -f mini ..........INDOnimous..........
 echo
 echo
-echo -e "$blue          ~~~~~~~TMUX---BUNCH~~~~~~~~"
+echo -e "$blue          ~~~~~~~INDOnimous Tutorial ~~~~~~~~"
 echo
 echo -e "$green ENTER to continue$reset"
 read devil
